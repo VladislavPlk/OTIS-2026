@@ -59,6 +59,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -124,6 +125,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/ar.com"
     found: "C:/Users/user/gcc/bin/ar.exe"
@@ -153,6 +155,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -196,6 +199,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/ranlib.com"
     found: "C:/Users/user/gcc/bin/ranlib.exe"
@@ -225,6 +229,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -268,6 +273,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/strip.com"
     found: "C:/Users/user/gcc/bin/strip.exe"
@@ -297,6 +303,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -340,6 +347,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/ld.com"
     found: "C:/Users/user/gcc/bin/ld.exe"
@@ -369,6 +377,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -412,6 +421,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/nm.com"
     found: "C:/Users/user/gcc/bin/nm.exe"
@@ -441,6 +451,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -484,6 +495,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/objdump.com"
     found: "C:/Users/user/gcc/bin/objdump.exe"
@@ -513,6 +525,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -556,6 +569,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/objcopy.com"
     found: "C:/Users/user/gcc/bin/objcopy.exe"
@@ -585,6 +599,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -628,6 +643,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/readelf.com"
     found: "C:/Users/user/gcc/bin/readelf.exe"
@@ -657,6 +673,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -700,6 +717,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/dlltool.com"
     found: "C:/Users/user/gcc/bin/dlltool.exe"
@@ -729,6 +747,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -772,6 +791,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/addr2line.com"
     found: "C:/Users/user/gcc/bin/addr2line.exe"
@@ -801,6 +821,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -844,6 +865,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/tapi.com"
       - "C:/Users/user/gcc/bin/tapi.exe"
@@ -914,6 +936,9 @@ events:
       - "C:/Users/user/AppData/Local/gitkraken/bin/tapi.com"
       - "C:/Users/user/AppData/Local/gitkraken/bin/tapi.exe"
       - "C:/Users/user/AppData/Local/gitkraken/bin/tapi"
+      - "C:/msys64/mingw64/bin/tapi.com"
+      - "C:/msys64/mingw64/bin/tapi.exe"
+      - "C:/msys64/mingw64/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -941,6 +966,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -987,6 +1013,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/gcc-ar-15.2.com"
       - "C:/Users/user/gcc/bin/gcc-ar-15.2.exe"
@@ -1057,6 +1084,9 @@ events:
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar-15.2.com"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar-15.2.exe"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar-15.2"
+      - "C:/msys64/mingw64/bin/gcc-ar-15.2.com"
+      - "C:/msys64/mingw64/bin/gcc-ar-15.2.exe"
+      - "C:/msys64/mingw64/bin/gcc-ar-15.2"
       - "C:/Users/user/gcc/bin/gcc-ar-15.com"
       - "C:/Users/user/gcc/bin/gcc-ar-15.exe"
       - "C:/Users/user/gcc/bin/gcc-ar-15"
@@ -1126,6 +1156,9 @@ events:
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar-15.com"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar-15.exe"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar-15"
+      - "C:/msys64/mingw64/bin/gcc-ar-15.com"
+      - "C:/msys64/mingw64/bin/gcc-ar-15.exe"
+      - "C:/msys64/mingw64/bin/gcc-ar-15"
       - "C:/Users/user/gcc/bin/gcc-ar15.com"
       - "C:/Users/user/gcc/bin/gcc-ar15.exe"
       - "C:/Users/user/gcc/bin/gcc-ar15"
@@ -1195,6 +1228,9 @@ events:
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar15.com"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar15.exe"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ar15"
+      - "C:/msys64/mingw64/bin/gcc-ar15.com"
+      - "C:/msys64/mingw64/bin/gcc-ar15.exe"
+      - "C:/msys64/mingw64/bin/gcc-ar15"
       - "C:/Users/user/gcc/bin/gcc-ar.com"
     found: "C:/Users/user/gcc/bin/gcc-ar.exe"
     search_context:
@@ -1223,6 +1259,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1269,6 +1306,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
     searched_directories:
       - "C:/Users/user/gcc/bin/gcc-ranlib-15.2.com"
       - "C:/Users/user/gcc/bin/gcc-ranlib-15.2.exe"
@@ -1339,6 +1377,9 @@ events:
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib-15.2.com"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib-15.2.exe"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib-15.2"
+      - "C:/msys64/mingw64/bin/gcc-ranlib-15.2.com"
+      - "C:/msys64/mingw64/bin/gcc-ranlib-15.2.exe"
+      - "C:/msys64/mingw64/bin/gcc-ranlib-15.2"
       - "C:/Users/user/gcc/bin/gcc-ranlib-15.com"
       - "C:/Users/user/gcc/bin/gcc-ranlib-15.exe"
       - "C:/Users/user/gcc/bin/gcc-ranlib-15"
@@ -1408,6 +1449,9 @@ events:
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib-15.com"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib-15.exe"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib-15"
+      - "C:/msys64/mingw64/bin/gcc-ranlib-15.com"
+      - "C:/msys64/mingw64/bin/gcc-ranlib-15.exe"
+      - "C:/msys64/mingw64/bin/gcc-ranlib-15"
       - "C:/Users/user/gcc/bin/gcc-ranlib15.com"
       - "C:/Users/user/gcc/bin/gcc-ranlib15.exe"
       - "C:/Users/user/gcc/bin/gcc-ranlib15"
@@ -1477,6 +1521,9 @@ events:
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib15.com"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib15.exe"
       - "C:/Users/user/AppData/Local/gitkraken/bin/gcc-ranlib15"
+      - "C:/msys64/mingw64/bin/gcc-ranlib15.com"
+      - "C:/msys64/mingw64/bin/gcc-ranlib15.exe"
+      - "C:/msys64/mingw64/bin/gcc-ranlib15"
       - "C:/Users/user/gcc/bin/gcc-ranlib.com"
     found: "C:/Users/user/gcc/bin/gcc-ranlib.exe"
     search_context:
@@ -1505,6 +1552,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1551,6 +1599,7 @@ events:
       - "C:/Users/user/AppData/Roaming/npm/"
       - "C:/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "C:/Users/user/AppData/Local/gitkraken/bin/"
+      - "C:/msys64/mingw64/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1592,6 +1641,7 @@ events:
         - "C:\\Users\\user\\AppData\\Roaming\\npm"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"
         - "C:\\Users\\user\\AppData\\Local\\gitkraken\\bin"
+        - "C:\\msys64\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OTIS"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1607,8 +1657,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-ruulfe"
-      binary: "D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-ruulfe"
+      source: "D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-bty5bi"
+      binary: "D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-bty5bi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1619,13 +1669,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-ruulfe'
+        Change Dir: 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-bty5bi'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:\\Users\\user\\gcc\\bin\\make.exe -f Makefile cmTC_778fa/fast
-        C:/Users/user/gcc/bin/make.exe  -f CMakeFiles/cmTC_778fa.dir/build.make CMakeFiles/cmTC_778fa.dir/build
-        make[1]: Entering directory 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-ruulfe'
-        Building CXX object CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj
-        C:/Users/user/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:\\Users\\user\\gcc\\bin\\make.exe -f Makefile cmTC_03743/fast
+        C:/Users/user/gcc/bin/make.exe  -f CMakeFiles/cmTC_03743.dir/build.make CMakeFiles/cmTC_03743.dir/build
+        make[1]: Entering directory 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-bty5bi'
+        Building CXX object CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/Users/user/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
         Built by Equation Solution <http://www.Equation.com>.
         Using built-in specs.
         COLLECT_GCC=C:/Users/user/gcc/bin/g++.exe
@@ -1634,8 +1684,8 @@ events:
         Thread model: win32
         Supported LTO compression algorithms: zlib
         gcc version 15.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_778fa.dir/'
-         C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_778fa.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccIfWNNc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03743.dir/'
+         C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_03743.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccqkJQCp.s
         GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -1657,16 +1707,16 @@ events:
          C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: c70e4fa21ec83929f0784581e6c37be1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_778fa.dir/'
-         C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccIfWNNc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03743.dir/'
+         C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccqkJQCp.s
         GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
         COMPILER_PATH=C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/user/gcc/bin/../libexec/gcc/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/user/gcc/bin/../lib/gcc/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_778fa.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_778fa.dir/objects.a
-        C:/Users/user/gcc/bin/ar.exe qc CMakeFiles/cmTC_778fa.dir/objects.a @CMakeFiles/cmTC_778fa.dir/objects1.rsp
-        C:/Users/user/gcc/bin/g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_778fa.dir/objects.a -Wl,--no-whole-archive -o cmTC_778fa.exe -Wl,--out-implib,libcmTC_778fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_03743.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_03743.dir/objects.a
+        C:/Users/user/gcc/bin/ar.exe qc CMakeFiles/cmTC_03743.dir/objects.a @CMakeFiles/cmTC_03743.dir/objects1.rsp
+        C:/Users/user/gcc/bin/g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_03743.dir/objects.a -Wl,--no-whole-archive -o cmTC_03743.exe -Wl,--out-implib,libcmTC_03743.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Built by Equation Solution <http://www.Equation.com>.
         Using built-in specs.
         COLLECT_GCC=C:/Users/user/gcc/bin/g++.exe
@@ -1678,13 +1728,13 @@ events:
         gcc version 15.2.0 (GCC) 
         COMPILER_PATH=C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/user/gcc/bin/../libexec/gcc/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/user/gcc/bin/../lib/gcc/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_778fa.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_778fa.'
-         C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_778fa.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_778fa.dir/objects.a --no-whole-archive --out-implib libcmTC_778fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03743.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03743.'
+         C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_03743.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_03743.dir/objects.a --no-whole-archive --out-implib libcmTC_03743.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_778fa.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_778fa.dir/objects.a --no-whole-archive --out-implib libcmTC_778fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_03743.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_03743.dir/objects.a --no-whole-archive --out-implib libcmTC_03743.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.44
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_778fa.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_778fa.'
-        make[1]: Leaving directory 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-ruulfe'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03743.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03743.'
+        make[1]: Leaving directory 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-bty5bi'
         
       exitCode: 0
   -
@@ -1723,13 +1773,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-ruulfe']
+        ignore line: [Change Dir: 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-bty5bi']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:\\Users\\user\\gcc\\bin\\make.exe -f Makefile cmTC_778fa/fast]
-        ignore line: [C:/Users/user/gcc/bin/make.exe  -f CMakeFiles/cmTC_778fa.dir/build.make CMakeFiles/cmTC_778fa.dir/build]
-        ignore line: [make[1]: Entering directory 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-ruulfe']
-        ignore line: [Building CXX object CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:/Users/user/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:\\Users\\user\\gcc\\bin\\make.exe -f Makefile cmTC_03743/fast]
+        ignore line: [C:/Users/user/gcc/bin/make.exe  -f CMakeFiles/cmTC_03743.dir/build.make CMakeFiles/cmTC_03743.dir/build]
+        ignore line: [make[1]: Entering directory 'D:/vscodeC++/OTIS-2026/trunk/ii03017/task_01/build/CMakeFiles/CMakeScratch/TryCompile-bty5bi']
+        ignore line: [Building CXX object CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:/Users/user/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Built by Equation Solution <http://www.Equation.com>.]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Users/user/gcc/bin/g++.exe]
@@ -1738,8 +1788,8 @@ events:
         ignore line: [Thread model: win32]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_778fa.dir/']
-        ignore line: [ C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_778fa.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccIfWNNc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03743.dir/']
+        ignore line: [ C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_03743.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccqkJQCp.s]
         ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -1761,8 +1811,8 @@ events:
         ignore line: [ C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c70e4fa21ec83929f0784581e6c37be1]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_778fa.dir/']
-        ignore line: [ C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccIfWNNc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03743.dir/']
+        ignore line: [ C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccqkJQCp.s]
         ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
         ignore line: [COMPILER_PATH=C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/Users/user/gcc/bin/../libexec/gcc/]
@@ -1773,11 +1823,11 @@ events:
         ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_778fa.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_778fa.exe]
-        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_778fa.dir/objects.a]
-        ignore line: [C:/Users/user/gcc/bin/ar.exe qc CMakeFiles/cmTC_778fa.dir/objects.a @CMakeFiles/cmTC_778fa.dir/objects1.rsp]
-        ignore line: [C:/Users/user/gcc/bin/g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_778fa.dir/objects.a -Wl --no-whole-archive -o cmTC_778fa.exe -Wl --out-implib libcmTC_778fa.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03743.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_03743.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_03743.dir/objects.a]
+        ignore line: [C:/Users/user/gcc/bin/ar.exe qc CMakeFiles/cmTC_03743.dir/objects.a @CMakeFiles/cmTC_03743.dir/objects1.rsp]
+        ignore line: [C:/Users/user/gcc/bin/g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_03743.dir/objects.a -Wl --no-whole-archive -o cmTC_03743.exe -Wl --out-implib libcmTC_03743.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Built by Equation Solution <http://www.Equation.com>.]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Users/user/gcc/bin/g++.exe]
@@ -1796,15 +1846,15 @@ events:
         ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_778fa.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_778fa.']
-        link line: [ C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_778fa.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_778fa.dir/objects.a --no-whole-archive --out-implib libcmTC_778fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03743.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03743.']
+        link line: [ C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_03743.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_03743.dir/objects.a --no-whole-archive --out-implib libcmTC_03743.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/Users/user/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_778fa.exe] ==> ignore
+          arg [cmTC_03743.exe] ==> ignore
           arg [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -1815,10 +1865,10 @@ events:
           arg [-LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles/cmTC_778fa.dir/objects.a] ==> ignore
+          arg [CMakeFiles/cmTC_03743.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_778fa.dll.a] ==> ignore
+          arg [libcmTC_03743.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1840,9 +1890,9 @@ events:
           arg [-lkernel32] ==> lib [kernel32]
           arg [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        link line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_778fa.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_778fa.dir/objects.a --no-whole-archive --out-implib libcmTC_778fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe]
-        link line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_778fa.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_778fa.dir/objects.a --no-whole-archive --out-implib libcmTC_778fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker architecture flags [-m;i386pep]
-        ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_778fa.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_778fa.dir/objects.a --no-whole-archive --out-implib libcmTC_778fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        link line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_03743.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_03743.dir/objects.a --no-whole-archive --out-implib libcmTC_03743.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe]
+        link line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_03743.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_03743.dir/objects.a --no-whole-archive --out-implib libcmTC_03743.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker architecture flags [-m;i386pep]
+        ignore line: [C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/15.2.0 -m i386pep -Bdynamic -o cmTC_03743.exe C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/user/gcc/bin/../lib/gcc -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_03743.dir/objects.a --no-whole-archive --out-implib libcmTC_03743.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/user/gcc/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': C:/Users/user/gcc/x86_64-w64-mingw32/bin/ld.exe -m;i386pep
         remove lib [msvcrt]
         remove lib [msvcrt]

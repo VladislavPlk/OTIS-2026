@@ -29,9 +29,11 @@ if(OTIS_BUILD_TESTS AND BUILD_TESTING)
     add_executable(otis_tests
         test/test_models.cpp
         test/test_stability.cpp
+        test/test_application_logic.cpp
         test/test_main_input.cpp
     )
-    target_link_libraries(otis_tests PRIVATE otis_core GTest::gtest_main GTest::gmock)
+    # otis_task_02_core уже содержит код task_01 (модели, сигналы) и пути к его заголовкам.
+    target_link_libraries(otis_tests PRIVATE otis_task_02_core GTest::gtest_main GTest::gmock)
     target_include_directories(otis_tests PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src")
 
     include(GoogleTest)

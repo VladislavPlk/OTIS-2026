@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include <cstdio>
 #include <fstream>
+#include <limits>
 #include <sstream>
 #include <string>
 #include "ApplicationLogic.h"
@@ -57,4 +58,34 @@ TEST(ApplicationLogicTest, SavesCsvAndReportsFailureForInvalidPath)
     file.close();
     std::remove(path.c_str());
     EXPECT_FALSE(saveResultsCsv("missing_directory/should_fail.csv", {}));
+}
+
+TEST(ApplicationLogicTest, StabilityReportForStableModelHasNoWarning)
+{
+    std::ostringstream out;
+    EXPECT_TRUE(printStabilityReport(out, 0.5, 0.2));
+    EXPECT_NE(out.str().find("устойчива"), std::string::npos);
+    EXPECT_EQ(out.str().find("Предупреждение"), std::string::npos);
+}
+
+TEST(ApplicationLogicTest, StabilityReportForUnstableModelPrintsWarning)
+{
+    std::ostringstream out;
+    EXPECT_FALSE(printStabilityReport(out, 1.5, 0.0));
+    EXPECT_NE(out.str().find("Предупреждение"), std::string::npos);
+}
+
+TEST(ApplicationLogicTest, StabilityReportForBoundaryRootPrintsWarning)
+{
+    std::ostringstream out;
+    EXPECT_FALSE(printStabilityReport(out, 1.0, 0.0));
+    EXPECT_NE(out.str().find("Предупреждение"), std::string::npos);
+}
+
+TEST(ApplicationLogicTest, StabilityReportForNonFiniteCoefficientsSkipsRoots)
+{
+    std::ostringstream out;
+    EXPECT_FALSE(printStabilityReport(out, std::numeric_limits<double>::infinity(), 0.0));
+    EXPECT_EQ(out.str().find("z1"), std::string::npos);
+    EXPECT_NE(out.str().find("конечными"), std::string::npos);
 }

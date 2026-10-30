@@ -156,11 +156,14 @@ TEST(SimulationTest, UsesIntegrationStepForContinuousModel)
 
 
 // Tests for the public interface declared in Model1_3.h.
-TEST(Model13HeaderTest, ConstructorStoresCoefficientsExposedByGetters)
+TEST(Model13HeaderTest, ConstructorStoresCoefficientsUsedInCalculation)
 {
+    // Геттеров в Model1_3 (task_01) нет, поэтому проверяем коэффициенты по поведению:
+    // каждый из a1, a2, b влияет на результат независимо.
     const Model1_3 model(0.25, -0.75, 2.5);
-    EXPECT_DOUBLE_EQ(model.getA1(), 0.25);
-    EXPECT_DOUBLE_EQ(model.getA2(), -0.75);
+    EXPECT_DOUBLE_EQ(model.calculateNext(1.0, 0.0, 0.0, 1.0), 0.25);
+    EXPECT_DOUBLE_EQ(model.calculateNext(0.0, 1.0, 0.0, 1.0), -0.75);
+    EXPECT_DOUBLE_EQ(model.calculateNext(0.0, 0.0, 1.0, 1.0), 2.5);
 }
 
 TEST(Model13HeaderTest, CalculateNextIgnoresIntegrationStep)
@@ -177,4 +180,147 @@ TEST(Model13HeaderTest, WorksThroughBaseClassInterface)
     const Model& model = concrete;
     EXPECT_NEAR(model.calculateNext(2.0, 3.0, 4.0, 1.0), 6.5, 1e-12);
     EXPECT_STREQ(model.getName(), "Model 1.3 - Second-Order Linear Model");
+}
+
+// ---------------------------------------------------------------------------
+// Параметризованные тесты сходимости (TEST_P): устойчивая модель при ступенчатом
+// воздействии выходит на установившееся значение, найденное аналитически.
+// ---------------------------------------------------------------------------
+
+// (a1, a2, b, A): y_inf = b*A / (1 - a1 - a2)
+class Model13ConvergenceTest
+    : public ::testing::TestWithParam<std::tuple<double, double, double, double>>
+{};
+
+TEST_P(Model13ConvergenceTest, StepResponseConvergesToSteadyState)
+{
+    const auto [a1, a2, b, amplitude] = GetParam();
+    const Model1_3 model(a1, a2, b);
+    const auto rows = simulate(model, SignalType::Step, amplitude, 400, 0.0);
+    EXPECT_NEAR(rows.back().y, b * amplitude / (1.0 - a1 - a2), 1e-6);
+}
+
+INSTANTIATE_TEST_SUITE_P(
+    StableCoefficients, Model13ConvergenceTest,
+    ::testing::Values(
+        std::make_tuple(0.5, 0.2, 1.0, 1.0),
+        std::make_tuple(0.3, -0.2, 2.0, 1.5),
+        std::make_tuple(0.0, 0.5, 1.0, 2.0),
+        std::make_tuple(-0.4, 0.1, 0.5, 4.0)));
+
+// (a, b, A): y_inf = b*sign(A)*(1 - exp(-|A|)) / (1 - a)
+class Model25ConvergenceTest
+    : public ::testing::TestWithParam<std::tuple<double, double, double>>
+{};
+
+TEST_P(Model25ConvergenceTest, StepResponseConvergesToSteadyState)
+{
+    const auto [a, b, amplitude] = GetParam();
+    const Model2_5 model(a, b);
+    const auto rows = simulate(model, SignalType::Step, amplitude, 400, 0.0);
+    const double sign = amplitude > 0.0 ? 1.0 : -1.0;
+    EXPECT_NEAR(rows.back().y,
+                b * sign * (1.0 - std::exp(-std::abs(amplitude))) / (1.0 - a), 1e-6);
+}
+
+INSTANTIATE_TEST_SUITE_P(
+    StableCoefficients, Model25ConvergenceTest,
+    ::testing::Values(
+        std::make_tuple(0.5, 1.0, 1.0),
+        std::make_tuple(0.9, 2.0, 3.0),
+        std::make_tuple(-0.5, 1.0, 2.0),
+        std::make_tuple(0.5, 1.0, -1.0)));
+
+// (a, b, A, dt): y_inf = b*A / exp(a), метод Эйлера устойчив при dt*exp(a) < 2.
+class Model37ConvergenceTest
+    : public ::testing::TestWithParam<std::tuple<double, double, double, double>>
+{};
+
+TEST_P(Model37ConvergenceTest, EulerStepResponseConvergesToSteadyState)
+{
+    const auto [a, b, amplitude, dt] = GetParam();
+    const Model3_7 model(a, b);
+    const auto rows = simulate(model, SignalType::Step, amplitude, 5000, 0.0, dt);
+    EXPECT_NEAR(rows.back().y, b * amplitude / std::exp(a), 1e-6);
+}
+
+INSTANTIATE_TEST_SUITE_P(
+    StableCoefficients, Model37ConvergenceTest,
+    ::testing::Values(
+        std::make_tuple(0.0, 1.0, 1.0, 0.1),
+        std::make_tuple(0.5, 2.0, 1.0, 0.05),
+        std::make_tuple(-0.5, 1.0, 3.0, 0.2)));
+
+// ---------------------------------------------------------------------------
+// Google Mock: подмена модели проверяет, что simulate() передаёт в calculateNext
+// корректные y(t), y(t-1), u(t), dt для разных режимов управления.
+// ---------------------------------------------------------------------------
+
+class MockModel : public Model
+{
+public:
+    MOCK_METHOD(double, calculateNext, (double, double, double, double), (const, override));
+    MOCK_METHOD(const char*, getName, (), (const, override));
+};
+
+TEST(SimulationMockTest, StepSignalPassesStateHistoryAndStepToModel)
+{
+    MockModel model;
+    {
+        ::testing::InSequence sequence;
+        EXPECT_CALL(model, calculateNext(1.0, 1.0, 2.0, 0.5)).WillOnce(::testing::Return(10.0));
+        EXPECT_CALL(model, calculateNext(10.0, 1.0, 2.0, 0.5)).WillOnce(::testing::Return(20.0));
+        EXPECT_CALL(model, calculateNext(20.0, 10.0, 2.0, 0.5)).WillOnce(::testing::Return(30.0));
+    }
+
+    const auto rows = simulate(model, SignalType::Step, 2.0, 3, 1.0, 0.5);
+
+    ASSERT_EQ(rows.size(), 4u);
+    EXPECT_DOUBLE_EQ(rows[1].y, 10.0);
+    EXPECT_DOUBLE_EQ(rows[2].y, 20.0);
+    EXPECT_DOUBLE_EQ(rows[3].y, 30.0);
+}
+
+TEST(SimulationMockTest, ImpulseSignalIsNonzeroOnlyOnFirstCall)
+{
+    MockModel model;
+    {
+        ::testing::InSequence sequence;
+        EXPECT_CALL(model, calculateNext(::testing::_, ::testing::_, 5.0, ::testing::_))
+            .WillOnce(::testing::Return(0.0));
+        EXPECT_CALL(model, calculateNext(::testing::_, ::testing::_, 0.0, ::testing::_))
+            .Times(2)
+            .WillRepeatedly(::testing::Return(0.0));
+    }
+
+    simulate(model, SignalType::Impulse, 5.0, 3, 0.0);
+}
+
+TEST(SimulationMockTest, HarmonicSignalFeedsSineSamplesToModel)
+{
+    MockModel model;
+    {
+        ::testing::InSequence sequence;
+        EXPECT_CALL(model, calculateNext(::testing::_, ::testing::_,
+                                         ::testing::DoubleNear(0.0, 1e-12), ::testing::_))
+            .WillOnce(::testing::Return(0.0));
+        EXPECT_CALL(model, calculateNext(::testing::_, ::testing::_,
+                                         ::testing::DoubleNear(2.0 * std::sin(1.0), 1e-12),
+                                         ::testing::_))
+            .WillOnce(::testing::Return(0.0));
+        EXPECT_CALL(model, calculateNext(::testing::_, ::testing::_,
+                                         ::testing::DoubleNear(2.0 * std::sin(2.0), 1e-12),
+                                         ::testing::_))
+            .WillOnce(::testing::Return(0.0));
+    }
+
+    simulate(model, SignalType::Harmonic, 2.0, 3, 0.0);
+}
+
+TEST(SimulationMockTest, InvalidStepCountNeverCallsModel)
+{
+    MockModel model;
+    EXPECT_CALL(model, calculateNext(::testing::_, ::testing::_, ::testing::_, ::testing::_))
+        .Times(0);
+    EXPECT_THROW(simulate(model, SignalType::Step, 1.0, 0, 0.0), std::invalid_argument);
 }

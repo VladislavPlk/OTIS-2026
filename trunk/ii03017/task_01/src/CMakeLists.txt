@@ -15,10 +15,7 @@ add_executable(otis_task_01
 )
 
 target_include_directories(otis_task_01 PRIVATE src)
-<<<<<<< HEAD
-=======
 
 # The executable writes results.csv into its working directory (build/src),
 # so keep the plotting script beside it as well.
 configure_file(plot.py plot.py COPYONLY)
->>>>>>> ce45832df4742b3b2b23a98ce2870aab38cf4f5d

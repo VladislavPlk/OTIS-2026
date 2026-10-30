@@ -127,9 +127,11 @@ set "TEST_RESULT=%ERRORLEVEL%"
 
 echo.
 echo [4/4] Generating coverage reports...
-python -m gcovr -r . --gcov-executable gcov --filter src/ --html-details --exclude-branches-by-pattern ".*" -o build\coverage\coverage.html
+REM root = trunk\ii03017, so the coverage report includes task_01\src (models, signals) too.
+REM Use plain "gcov" (found via PATH): gcovr breaks a full Windows path with backslashes.
+python -m gcovr -r .. --gcov-executable gcov --filter ".*/task_0[12]/src/" --html-details --exclude-branches-by-pattern ".*" -o build\coverage\coverage.html build
 if errorlevel 1 goto coverage_error
-python -m gcovr -r . --gcov-executable gcov --filter src/ --xml-pretty --exclude-branches-by-pattern ".*" -o build\coverage\coverage.xml
+python -m gcovr -r .. --gcov-executable gcov --filter ".*/task_0[12]/src/" --xml-pretty --exclude-branches-by-pattern ".*" -o build\coverage\coverage.xml build
 if errorlevel 1 goto coverage_error
 
 echo.

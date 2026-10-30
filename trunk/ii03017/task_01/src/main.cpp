@@ -6,9 +6,14 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
+<<<<<<< HEAD
 #ifdef _WIN32
 #include <windows.h>
 #endif
+=======
+#include <windows.h>
+
+>>>>>>> ce45832df4742b3b2b23a98ce2870aab38cf4f5d
 
 #include "InputSignal.h"
 #include "Model.h"
@@ -150,10 +155,16 @@ static void printTable(const std::vector<Row>& rows)
 
 int main()
 {   
+<<<<<<< HEAD
     #ifdef _WIN32
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
     #endif
+=======
+    SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
+
+>>>>>>> ce45832df4742b3b2b23a98ce2870aab38cf4f5d
     std::cout << "============================================\n";
     std::cout << " OTIS-2026 | Лабораторная работа №1\n";
     std::cout << " Вариант 3\n";

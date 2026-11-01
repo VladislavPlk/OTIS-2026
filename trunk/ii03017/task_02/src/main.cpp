@@ -21,6 +21,13 @@
 
 // Модели и входные сигналы берутся из task_01, здесь только консольный ввод/вывод.
 
+// Отдельный тип исключения: поток ввода закрыт, запрашивать значение больше не у кого.
+class InputClosedError : public std::runtime_error
+{
+public:
+    InputClosedError() : std::runtime_error("Ввод завершён (EOF).") {}
+};
+
 static int readInt(const std::string& prompt, int minValue)
 {
     int value;
@@ -33,7 +40,7 @@ static int readInt(const std::string& prompt, int minValue)
             return value;
 
         if (std::cin.eof())
-            throw std::runtime_error("Ввод завершён (EOF).");
+            throw InputClosedError();
 
         std::cout << "Ошибка ввода. Повторите.\n";
         std::cin.clear();
@@ -53,7 +60,7 @@ static double readDouble(const std::string& prompt)
             return value;
 
         if (std::cin.eof())
-            throw std::runtime_error("Ввод завершён (EOF).");
+            throw InputClosedError();
 
         std::cout << "Ошибка ввода. Повторите.\n";
         std::cin.clear();
@@ -65,15 +72,16 @@ static SignalType readSignalType()
 {
     while (true)
     {
-        const int choice = readInt(
-            "\nТип входного воздействия:\n"
-            "1 - ступенчатое\n"
-            "2 - импульсное\n"
-            "3 - гармоническое\n"
-            "Ваш выбор: ", 1);
-
-        if (isValidSignalChoice(choice))
+        if (const int choice = readInt(
+                "\nТип входного воздействия:\n"
+                "1 - ступенчатое\n"
+                "2 - импульсное\n"
+                "3 - гармоническое\n"
+                "Ваш выбор: ", 1);
+            isValidSignalChoice(choice))
+        {
             return static_cast<SignalType>(choice);
+        }
 
         std::cout << "Нет такого воздействия. Повторите выбор.\n";
     }

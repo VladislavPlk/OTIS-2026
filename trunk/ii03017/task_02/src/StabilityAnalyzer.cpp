@@ -10,7 +10,7 @@ StabilityResult analyzeModel1_3Stability(double a1, double a2)
     if (!std::isfinite(a1) || !std::isfinite(a2))
         return {false, nan, nan, nan, nan, "Коэффициенты должны быть конечными числами."};
 
-    // z^2 - a1*z - a2 = 0
+    // Корни характеристического многочлена второй степени от z с коэффициентами 1, -a1, -a2.
     const std::complex<double> discriminant(a1 * a1 + 4.0 * a2, 0.0);
     const std::complex<double> sqrtDiscriminant = std::sqrt(discriminant);
     const std::complex<double> root1 = (a1 + sqrtDiscriminant) / 2.0;

@@ -1,0 +1,42 @@
+# --- C++ build artifacts ---
+build/
+out/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# --- Visual Studio ---
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+
+# --- IDE ---
+.idea/
+.vscode/
+*.swp
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+
+# --- Local simulation output ---
+trunk/ii02918/task_01/result.csv
+example_output.csv
+
+result_plot.png

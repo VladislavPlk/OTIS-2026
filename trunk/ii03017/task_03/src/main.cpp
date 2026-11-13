@@ -18,6 +18,7 @@
 #include <utility>
 #include <vector>
 #include <string>
+#include <string_view>
 
 static double readDouble(const std::string& prompt)
 {
@@ -90,14 +91,13 @@ static std::unique_ptr<Model> chooseModel()
 
 // Возвращает количество символов UTF-8, а не байтов.
 // Это важно для правильного выравнивания русских заголовков в таблице.
-static std::size_t utf8Length(const std::string& value)
+static std::size_t utf8Length(std::string_view value)
 {
     std::size_t length = 0;
     const auto* bytes = reinterpret_cast<const std::byte*>(value.data());
     for (std::size_t i = 0; i < value.size(); ++i)
     {
-        const unsigned char ch = std::to_integer<unsigned char>(bytes[i]);
-        if ((ch & 0xC0) != 0x80)
+        if ((bytes[i] & std::byte{0xC0}) != std::byte{0x80})
             ++length;
     }
     return length;

@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <cmath>
 #include <cstdlib>
+#include <cstddef>
 #include <exception>
 #include <iomanip>
 #include <iostream>
@@ -28,7 +29,7 @@ static double readDouble(const std::string& prompt)
             return value;
 
         if (std::cin.eof())
-            throw std::runtime_error("Ввод завершён");
+            throw std::ios_base::failure("Ввод завершён");
 
         std::cout << "Ошибка ввода. Введите конечное число.\n";
         std::cin.clear();
@@ -46,7 +47,7 @@ static int readInt(const std::string& prompt, int minimum)
             return value;
 
         if (std::cin.eof())
-            throw std::runtime_error("Ввод завершён");
+            throw std::ios_base::failure("Ввод завершён");
 
         std::cout << "Ошибка ввода. Введите целое число не меньше "
                   << minimum << ".\n";
@@ -92,8 +93,10 @@ static std::unique_ptr<Model> chooseModel()
 static std::size_t utf8Length(const std::string& value)
 {
     std::size_t length = 0;
-    for (unsigned char ch : value)
+    const auto* bytes = reinterpret_cast<const std::byte*>(value.data());
+    for (std::size_t i = 0; i < value.size(); ++i)
     {
+        const unsigned char ch = std::to_integer<unsigned char>(bytes[i]);
         if ((ch & 0xC0) != 0x80)
             ++length;
     }
@@ -124,7 +127,7 @@ static void printTable(const std::vector<PIDRow>& rows)
 
     for (const PIDRow& row : rows)
     {
-        std::vector<std::string> cells = {
+        auto cells = std::vector{
             std::to_string(row.step),
             formatNumber(row.time),
             formatNumber(row.setpoint),
@@ -233,7 +236,7 @@ int main()
         printTable(rows);
 
         if (!savePIDCsv("pid_results.csv", rows))
-            throw std::runtime_error("Не удалось создать pid_results.csv");
+            throw std::ios_base::failure("Не удалось создать pid_results.csv");
 
         std::cout << "\nРезультаты сохранены в pid_results.csv\n";
         std::cout << "Построение графика...\n";

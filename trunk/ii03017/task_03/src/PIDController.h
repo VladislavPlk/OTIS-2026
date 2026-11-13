@@ -39,8 +39,8 @@ private:
     double minOutput_;
     double maxOutput_;
     double integralLimit_;
-    double integral_;
-    double previousError_;
-    double output_;
-    bool hasPreviousError_;
+    double integral_{0.0};
+    double previousError_{0.0};
+    double output_{0.0};
+    bool hasPreviousError_{false};
 };

@@ -9,8 +9,7 @@ PIDController::PIDController(double kp, double ki, double kd, double dt,
                              double integralLimit)
     : kp_(kp), ki_(ki), kd_(kd), dt_(dt),
       minOutput_(minOutput), maxOutput_(maxOutput),
-      integralLimit_(integralLimit), integral_(0.0),
-      previousError_(0.0), output_(0.0), hasPreviousError_(false)
+      integralLimit_(integralLimit)
 {
     if (!std::isfinite(kp_) || !std::isfinite(ki_) ||
         !std::isfinite(kd_) || !std::isfinite(dt_) || dt_ <= 0.0)
@@ -41,11 +40,10 @@ double PIDController::update(double setpoint, double measuredValue)
     output_ = std::clamp(rawOutput, minOutput_, maxOutput_);
 
     // Anti-windup: не накапливаем интеграл, если он усиливает насыщение.
-    const bool pushesFurtherIntoSaturation =
-        (rawOutput > maxOutput_ && error > 0.0) ||
-        (rawOutput < minOutput_ && error < 0.0);
-
-    if (!pushesFurtherIntoSaturation)
+    if (const bool pushesFurtherIntoSaturation =
+            (rawOutput > maxOutput_ && error > 0.0) ||
+            (rawOutput < minOutput_ && error < 0.0);
+        !pushesFurtherIntoSaturation)
         integral_ = proposedIntegral;
 
     previousError_ = error;

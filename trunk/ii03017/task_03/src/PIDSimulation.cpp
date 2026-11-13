@@ -37,7 +37,7 @@ std::vector<PIDRow> simulatePID(const Model& model, PIDController& controller,
             model.calculateNext(temperature, previousTemperature, control, config.dt);
 
         if (!std::isfinite(nextTemperature))
-            throw std::runtime_error("Модель вернула некорректную температуру");
+            throw std::domain_error("Модель вернула некорректную температуру");
 
         previousTemperature = temperature;
         temperature = nextTemperature;

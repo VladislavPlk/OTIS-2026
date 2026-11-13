@@ -1,0 +1,14 @@
+PROJECT_NAME           = "OTIS Task 03 - PID Controller"
+PROJECT_BRIEF          = "Temperature control using Task 1 plant models"
+OUTPUT_DIRECTORY       = doc
+CREATE_SUBDIRS         = NO
+INPUT                  = src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.cpp
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARNINGS               = YES
